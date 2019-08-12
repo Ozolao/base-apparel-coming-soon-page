@@ -1,4 +1,5 @@
 // Global
+// =================================
 *,
 *::before,
 *::after {
@@ -11,7 +12,11 @@ body {
   font-family: 'Josefin Sans', sans-serif;
 }
 
-// App container
+img {
+  display: block;
+}
+
+// =================================
 .app {
   background: {
     color     : $gradiente1;
