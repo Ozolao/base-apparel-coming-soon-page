@@ -5,6 +5,10 @@
   div {
     position: relative;
 
+    max-width   : 21.875rem;
+    margin-right: auto;
+    margin-left : auto;
+
     input {
       display: block;
       width  : 100%;
@@ -16,7 +20,7 @@
 
       background-color: transparent;
       border          : .0625rem solid $primariColor;
-      border-radius   : 25px;
+      border-radius   : 1.5625rem;
 
       opacity: .5;
 
@@ -35,7 +39,7 @@
 
       background   : $gradiente2;
       border       : none;
-      border-radius: 25px;
+      border-radius: 1.5625rem;
       box-shadow   : 0 .5rem 1rem rgba(241, 155, 155, .5);
 
       cursor    : pointer;
