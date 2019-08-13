@@ -1,0 +1,31 @@
+.article {
+  padding: 32px;
+
+  text-align: center;
+
+  span,
+  p {
+    color: $primariColor;
+  }
+
+  h1 {
+    color         : $neutralColor;
+    font-size     : 2.5rem;
+    line-height   : 1.05;
+    letter-spacing: .68rem;
+
+    span {
+      font-size  : 2.5rem;
+      font-weight: 300;
+    }
+  }
+
+  p {
+    margin-top: -1rem;
+
+    font-size     : .8rem;
+    font-weight   : 600;
+    line-height   : 1.72;
+    letter-spacing: .027rem;
+  }
+}
