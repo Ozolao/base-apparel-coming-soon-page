@@ -18,6 +18,8 @@ img {
 
 // =================================
 .app {
+  padding-bottom: 75px;
+
   background: {
     color     : $gradiente1;
     image     : $gradiente1, url("../images/bg-pattern-desktop.svg");

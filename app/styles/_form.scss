@@ -1,0 +1,54 @@
+.form {
+  padding-right: 2rem;
+  padding-left : 2rem;
+
+  div {
+    position: relative;
+
+    input {
+      display: block;
+      width  : 100%;
+      margin : .9rem auto 0;
+      padding: 1rem 1.3rem;
+
+      font-family   : 'Josefin Sans', sans-serif;
+      letter-spacing: .03rem;
+
+      background-color: transparent;
+      border          : .0625rem solid $primariColor;
+      border-radius   : 25px;
+
+      opacity: .5;
+
+      &::placeholder {
+        color: $primariColor;
+      }
+    }
+
+    button {
+      position: absolute;
+      top     : 0;
+      right   : 0;
+
+      display: block;
+      padding: .9rem 1.6rem;
+
+      background   : $gradiente2;
+      border       : none;
+      border-radius: 25px;
+      box-shadow   : 0 .5rem 1rem rgba(241, 155, 155, .5);
+
+      cursor    : pointer;
+      transition: box-shadow .1s;
+
+      &:hover {
+        background: linear-gradient(135deg, hsl(0, 78%, 91%), hsl(0, 74%, 79%));
+        box-shadow: 0 .7rem 1rem .2rem rgb(223, 172, 172);
+      }
+
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+}
