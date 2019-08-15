@@ -23,8 +23,23 @@ img {
   background: {
     color     : $gradiente1;
     image     : $gradiente1, url("../images/bg-pattern-desktop.svg");
+    size      : cover;
     position  : left;
     repeat    : no-repeat;
     blend-mode: hue;
+  }
+}
+
+// Media Queries
+// =================================
+@media only screen and (min-width: 769px) {
+  .app {
+    display              : grid;
+    grid-template-columns: 63% 37%;
+    max-width            : 1440px;
+    height               : 100%;
+    margin-right         : auto;
+    margin-left          : auto;
+    padding-bottom       : unset;
   }
 }

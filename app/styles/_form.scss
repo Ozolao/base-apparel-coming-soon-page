@@ -3,9 +3,8 @@
   padding-left : 2rem;
 
   div {
-    position: relative;
-
-    max-width   : 21.875rem;
+    position    : relative;
+    max-width   : 25.875rem;
     margin-right: auto;
     margin-left : auto;
 
@@ -54,5 +53,52 @@
         max-width: 100%;
       }
     }
+  }
+}
+
+// Media Queries
+// =================================
+@media only screen and (min-width: 769px) {
+  .form {
+    grid-column: 1;
+    padding    : 37.5px 5rem 95px 5rem;
+
+    div {
+      max-width   : 28.875rem;
+      margin-right: unset;
+      margin-left : unset;
+
+      input {
+        padding: 1.15rem 1.9rem;
+
+        font-size: .96rem;
+      }
+
+      button {
+        padding: 1.15rem 2.8rem;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 937px) {
+  .form {
+    padding: 22px 5rem 72px 5rem;
+
+    div {
+      max-width: 25.875rem;
+    }
+  }
+}
+
+@media only screen and (min-width: 1028px) {
+  .form {
+    padding: 22px 10rem 83px 120px;
+  }
+}
+
+@media only screen and (min-width: 1359px) {
+  .form {
+    padding-bottom: 95px;
   }
 }
