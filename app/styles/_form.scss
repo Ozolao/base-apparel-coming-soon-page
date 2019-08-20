@@ -2,11 +2,13 @@
   padding-right: 2rem;
   padding-left : 2rem;
 
+
   div {
     position    : relative;
     max-width   : 25.875rem;
     margin-right: auto;
     margin-left : auto;
+
 
     input {
       display: block;
@@ -36,8 +38,8 @@
 
         opacity: 1;
       }
-
     }
+
 
     .error-img {
       position : absolute;
@@ -52,6 +54,7 @@
         display: unset;
       }
     }
+
 
     .error-text {
       position: absolute;
@@ -69,6 +72,7 @@
         display: unset;
       }
     }
+
 
     button {
       position: absolute;
@@ -91,12 +95,15 @@
         box-shadow: 0 .7rem 1rem .2rem rgb(223, 172, 172);
       }
 
+
       img {
         max-width: 100%;
       }
     }
   }
 }
+
+
 
 // Media Queries
 // =================================
@@ -105,10 +112,12 @@
     grid-column: 1;
     padding    : 37.5px 5rem 95px 5rem;
 
+
     div {
       max-width   : 28.875rem;
       margin-right: unset;
       margin-left : unset;
+
 
       input {
         padding: 1.15rem 1.9rem;
@@ -116,11 +125,13 @@
         font-size: .96rem;
       }
 
+
       .error-img {
         right: 6.875rem;
 
         max-width: 100%;
       }
+
 
       button {
         padding: 1.15rem 2.8rem;
@@ -132,6 +143,7 @@
 @media only screen and (min-width: 937px) {
   .form {
     padding: 22px 5rem 72px 5rem;
+
 
     div {
       max-width: 25.875rem;

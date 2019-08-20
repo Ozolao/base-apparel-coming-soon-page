@@ -3,10 +3,12 @@
 
   text-align: center;
 
+
   span,
   p {
     color: $primariColor;
   }
+
 
   h1 {
     color         : $neutralColor;
@@ -20,6 +22,7 @@
     }
   }
 
+
   p {
     margin-top   : -1rem;
     margin-bottom: -1rem;
@@ -31,6 +34,8 @@
   }
 }
 
+
+
 // Media Queries
 // =================================
 @media only screen and (min-width: 769px) {
@@ -39,6 +44,7 @@
     padding    : 0 50px 37.5px 82px;
 
     text-align: unset;
+
 
     h1 {
       font-size     : 3rem;
@@ -49,6 +55,7 @@
         font-size: 3rem;
       }
     }
+
 
     p {
       margin-top   : -1rem;
@@ -71,6 +78,7 @@
       }
     }
 
+
     p {
       font-size: .9rem;
     }
@@ -82,6 +90,7 @@
     max-width: 750px;
     padding  : 20px 170px 20px 120px;
 
+
     h1 {
       font-size: 4rem;
 
@@ -89,6 +98,7 @@
         font-size: 4rem;
       }
     }
+
 
     p {
       margin-top: -2rem;

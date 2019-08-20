@@ -2,10 +2,13 @@
   display: flex;
   padding: 32px;
 
+
   img {
     max-width: 6.25rem;
   }
 }
+
+
 
 // Media Queries
 // =================================
@@ -13,6 +16,7 @@
   .header {
     grid-column: 1;
     padding    : 65px 0 37.5px 82px;
+
 
     img {
       min-width: 8rem;
@@ -23,6 +27,7 @@
 @media only screen and (min-width: 937px) {
   .header {
     padding-top: 50px;
+
 
     img {
       min-width: 10rem;
