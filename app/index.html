@@ -45,9 +45,9 @@
 
 
     <!-- Form -->
-    <form class="form" action="#" method="post">
+    <form class="form" name="form" action="#" method="post" onsubmit="return validateForm()">
       <div>
-        <input id="email-input" type="email" name="email" id="email" placeholder="Email Address">
+        <input id="email" type="email" name="email" placeholder="Email Address" required>
 
         <img class="error-img" src="images/icon-error.svg" alt="Imagen de erro.">
 

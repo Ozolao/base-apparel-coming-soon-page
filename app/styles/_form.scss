@@ -95,6 +95,10 @@
         box-shadow: 0 .7rem 1rem .2rem rgb(223, 172, 172);
       }
 
+      &:focus {
+        outline: none;
+      }
+
 
       img {
         max-width: 100%;

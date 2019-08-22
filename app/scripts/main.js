@@ -1,5 +1,5 @@
 // Select email input, error image and error message
-var emailInput = document.getElementById("email-input");
+var email = document.getElementById("email");
 var errorImg = document.getElementsByClassName("error-img");
 var errorText = document.getElementsByClassName("error-text");
 
@@ -16,5 +16,15 @@ function hideError() {
 }
 
 // Add focus/blur event listeners to the email imput
-emailInput.addEventListener("focus", showError);
-emailInput.addEventListener("blur", hideError);
+email.addEventListener("focus", showError);
+email.addEventListener("blur", hideError);
+
+
+
+function validateForm() {
+  var x = document.forms["form"]["email"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+}
