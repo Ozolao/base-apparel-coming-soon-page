@@ -20,23 +20,31 @@
       letter-spacing: .03rem;
 
       background-color: transparent;
-      border          : .0625rem solid $primariColor;
+      border          : .0625rem solid $primaryColor;
       border-radius   : 1.5625rem;
 
       opacity: .5;
 
       &::placeholder {
-        color: $primariColor;
+        color: $primaryColor;
       }
 
       &:focus {
-        margin-top: .8rem;
-
         outline: none;
+
+        opacity: 1;
+      }
+
+
+      &:focus:invalid:not(:placeholder-shown) {
+        margin-top: .8rem;
 
         border: .125rem solid $secondaryColor;
 
-        opacity: 1;
+        &~.error-text,
+        &~.error-img {
+          display: unset;
+        }
       }
     }
 
@@ -49,10 +57,6 @@
 
       display  : none;
       max-width: 1.375rem;
-
-      &.open {
-        display: unset;
-      }
     }
 
 
@@ -67,10 +71,6 @@
       font-size     : .8rem;
       font-weight   : 600;
       letter-spacing: .027rem;
-
-      &.open {
-        display: unset;
-      }
     }
 
 
@@ -82,7 +82,7 @@
       display: block;
       padding: .9rem 1.6rem;
 
-      background   : $gradiente2;
+      background   : $gradient2;
       border       : none;
       border-radius: 1.5625rem;
       box-shadow   : 0 .5rem 1rem rgba(241, 155, 155, .5);
